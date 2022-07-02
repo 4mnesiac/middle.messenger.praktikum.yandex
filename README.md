@@ -1,4 +1,4 @@
-[Ссылка на PR](https://github.com/)
+[Ссылка на PR](https://github.com/4mnesiac/middle.messenger.praktikum.yandex/pull/1)
 
 ## Описание
 
@@ -8,13 +8,14 @@
 
 При помощи этих компонентов свёрстаны следующие страницы:
 
-- [500]()
-- [404]()
-- [Вход]()
-- [Регистрация]()
-- [Профиль]()
-- [Смена пароля]()
-- [Чат]()
+- [500](https://fabulous-belekoy-0750ec.netlify.app/500)
+- [404](https://fabulous-belekoy-0750ec.netlify.app/404)
+- [Вход](https://fabulous-belekoy-0750ec.netlify.app/login)
+- [Регистрация](https://fabulous-belekoy-0750ec.netlify.app/register)
+- [Профиль](https://fabulous-belekoy-0750ec.netlify.app/profile)
+- [Изменение профиля](https://fabulous-belekoy-0750ec.netlify.app/change_profile)
+- [Смена пароля](https://fabulous-belekoy-0750ec.netlify.app/change_password)
+- [Чат](https://fabulous-belekoy-0750ec.netlify.app/me)
 
 ## Установка
 
@@ -24,7 +25,7 @@
 - `cd middle.messenger.praktikum.yandex` — перейти в директорию с проектом,
 - `git checkout sprint_1` — переключить репозиторий на ветку разработки,
 - `npm install` — установить зависимости (можно сразу перейти к следующей команде т.к она самостоятельно установит зависимости),
-- `npm run start` — запустить express,
+- `npm run start` — запустить сервер на express,
 - [http://localhost:3000](http://localhost:3000) — сервер будет доступен на порту 3000.
 
 Для production сборки:
@@ -37,4 +38,4 @@
 
 ## Production в Netlify
 
-Собранное приложение доступно по [ссылке]().
+Собранное приложение доступно по [ссылке](https://fabulous-belekoy-0750ec.netlify.app/).
