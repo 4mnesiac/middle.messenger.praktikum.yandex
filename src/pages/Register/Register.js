@@ -1,5 +1,5 @@
 import Handlebars from 'handlebars';
-import template from './register.tmpl';
+import template from './Register.tmpl';
 import '../../components/button';
 import './Register.scss';
 import '../../layouts/container/container'
