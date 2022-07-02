@@ -1,8 +1,8 @@
 import Handlebars from 'handlebars';
-import template from './changeProfile.tmpl';
+import template from './ChangeProfile.tmpl';
 import '../../components/button';
-import './changeProfile.scss';
-import '../../layouts/container/container';
+import './ChangeProfile.scss';
+import '../../layouts/Container/container';
 import avatar from '../../../static/avatar-placeholder.svg';
 import { HOME, CHANGE_PASSWORD } from '../../routes/routes';
 

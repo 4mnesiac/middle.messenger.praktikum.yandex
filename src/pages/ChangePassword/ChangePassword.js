@@ -1,8 +1,8 @@
 import Handlebars from 'handlebars';
-import template from './changePassword.tmpl';
+import template from './ChangePassword.tmpl';
 import '../../components/button';
-import './changePassword.scss';
-import '../../layouts/container/container';
+import './ChangePassword.scss';
+import '../../layouts/Container/container';
 import avatar from '../../../static/avatar-placeholder.svg';
 
 export default () => {

@@ -1,7 +1,7 @@
 import Handlebars from 'handlebars';
 import template from './Home.tmpl';
 import './Home.scss';
-import '../../layouts/container/container'
+import '../../layouts/Container/container'
 
 import { 
     ERROR_404,

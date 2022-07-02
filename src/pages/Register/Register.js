@@ -2,7 +2,7 @@ import Handlebars from 'handlebars';
 import template from './Register.tmpl';
 import '../../components/button';
 import './Register.scss';
-import '../../layouts/container/container'
+import '../../layouts/Container/container'
 import { LOGIN } from '../../routes/routes';
 
 export default () => {

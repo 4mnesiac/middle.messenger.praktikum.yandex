@@ -1,6 +1,6 @@
 import Handlebars from 'handlebars';
-import template from './header.tmpl';
-import './header.scss';
+import template from './Header.tmpl';
+import './Header.scss';
 import { PROFILE } from '../../../../routes/routes';
 
 export default () => {
