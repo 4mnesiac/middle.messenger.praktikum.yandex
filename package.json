@@ -24,7 +24,7 @@
   },
   "scripts": {
     "dev": "parcel --no-cache static/index.html",
-    "build": "parcel build static/index.html --no-minify",
+    "build": "parcel build static/index.html",
     "start": "npm i && npm run build && node ./server.js",
     "clean": "rimraf ./dist/"
   },
