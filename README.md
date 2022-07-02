@@ -1,4 +1,4 @@
-[Ссылка на PR](https://github.com/)
+[Ссылка на PR](https://github.com/4mnesiac/middle.messenger.praktikum.yandex/pull/1)
 
 ## Описание
 
