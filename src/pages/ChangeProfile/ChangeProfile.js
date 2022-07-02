@@ -1,6 +1,6 @@
 import Handlebars from 'handlebars';
 import template from './ChangeProfile.tmpl';
-import '../../components/button';
+import '../../components/Button';
 import './ChangeProfile.scss';
 import '../../layouts/Container/container';
 import avatar from '../../../static/avatar-placeholder.svg';

@@ -1,6 +1,6 @@
 import Handlebars from 'handlebars';
 import template from './Login.tmpl';
-import '../../components/button';
+import '../../components/Button';
 // import '../../partials/buttonSecondary';
 import './Login.scss';
 import '../../layouts/Container/container';

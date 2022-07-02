@@ -1,6 +1,6 @@
 import Handlebars from 'handlebars';
 import template from './Register.tmpl';
-import '../../components/button';
+import '../../components/Button';
 import './Register.scss';
 import '../../layouts/Container/container'
 import { LOGIN } from '../../routes/routes';
