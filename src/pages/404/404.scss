@@ -1,0 +1,19 @@
+@import '../../styles/global.scss';
+
+.error-status, 
+.error-title {
+    color: $primaryColor;
+    margin: 0;
+}
+.error-status {
+    font-size: 64px;
+    font-weight: 900;
+}
+.error-title {
+    font-weight: 400;
+    font-size: 20px;
+}
+.link {
+    color: $linkColor;
+    font-size: 12px;
+}

@@ -1,0 +1,63 @@
+@import '../../styles/global.scss';
+
+.messages-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        
+    .messages {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        color: $primaryColor;
+        font-size: 14px;
+        font-weight: 400;
+        overflow-y: auto;
+
+        & .message {
+            max-width: 50%;
+            width: max-content;
+            padding: 10px;
+            margin-bottom: 10px;
+            
+            &__text {
+                margin: 0;
+            }
+            &__time {
+                font-size: 8px;
+                font-weight: 300;
+            }
+            &__info {
+                display: flex;
+                justify-content: flex-end;
+                gap: 2px;
+                padding: 2px;
+            }
+
+            &_type_send {
+                background-color: $sendMsgBg;
+                border-radius: 10px 10px 0 10px;
+                align-self: flex-end;
+
+                &__time {
+                    color: $linkColor;
+                }
+            }
+
+            &_type_receive {
+                background-color: $receiveMsgBg;
+                border-radius: 10px 10px 10px 0;
+                align-self: flex-start;
+
+                & time {
+                    color: $secondaryColor;
+                }
+            }
+
+        }
+    }
+
+}

@@ -1,0 +1,13 @@
+@import '../../styles/global.scss';
+
+.container {
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px 0;
+    min-width: 30%;
+    min-height: 90vh;
+}

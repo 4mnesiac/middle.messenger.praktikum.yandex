@@ -1,0 +1,14 @@
+@import '../../styles/global.scss';
+
+.form {
+    margin-bottom: 40px;
+    min-width: 280px;
+}
+.link {
+    padding-top: 16px;
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,35 @@
+@import '../../../../styles/global.scss';
+
+
+.chat-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 10px 14px 14px;
+    position: sticky;
+    bottom: 0;
+    background-color: #fff;
+    border-top: 1px solid $lightGray;
+
+    &__input {
+        height: 32px;
+        padding-left: 15px;
+        color: $primaryColor;
+        text-align: left;
+    }
+
+    &__attach, &__send-message {
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
