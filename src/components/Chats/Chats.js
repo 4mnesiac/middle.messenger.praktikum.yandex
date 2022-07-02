@@ -1,6 +1,6 @@
 import Handlebars from 'handlebars';
 import template from './Chats.tmpl';
-import './chats.scss';
+import './Chats.scss';
 import avatar from '../../../static/avatar-placeholder.svg';
 import getHeader from './parts/Header/Header';
 
