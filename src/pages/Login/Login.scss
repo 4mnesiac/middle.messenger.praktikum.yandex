@@ -1,0 +1,61 @@
+@import '../../styles/global.scss';
+
+.login-title {
+    padding-bottom: 60px;
+    margin: 0;
+}
+
+.link {
+    font-style: normal;
+    font-weight: 500;
+
+    &_theme_secondary {
+        color: $secondaryColor;
+        font-size: 12px;
+        padding: 16px 0;
+        text-decoration: none;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    & .controls {
+        padding: 80px;
+    }
+
+    &__input-container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+        position: relative;
+
+        &:last-of-type {
+            padding-bottom: 0;
+        }
+
+        & .input {
+            align-self: flex-start;
+            border: 0;
+            width: 100%;
+            font-size: 13px;
+            padding: 6px 0;
+            border-bottom: 1px solid $secondaryColor;
+            outline: 0;
+        }
+
+        & .label {
+            align-self: flex-start;
+            color: $secondaryColor;
+            font-size: 12px;
+        }
+
+        & .input-error {
+            display: none;
+            color: $dangerColor;
+            font-size: 10px;
+        }
+    }
+}

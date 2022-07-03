@@ -1,0 +1,19 @@
+@import '../../styles/global.scss';
+
+.button {
+    padding: 14px 40px;
+    border-radius: 8px;
+    background-color: $themeColor;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+    width: 280px;
+    cursor: pointer;
+
+    &:active {
+        opacity: .7;
+    }
+    &:hover {
+        background-color: $themeColorHover
+    }
+}

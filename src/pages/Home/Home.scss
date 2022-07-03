@@ -1,0 +1,11 @@
+@import '../../styles/global.scss';
+
+.list-item {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 4px;
+    
+    &:last-of-type {
+        padding-bottom: 0;
+    }
+}
