@@ -26,7 +26,7 @@
   "scripts": {
     "dev": "parcel static/index.html",
     "build": "parcel build static/index.html",
-    "start": "npm run clean && npm i && npm run build && node ./server",
+    "start": "npm run clean && npm run build && node ./server",
     "clean": "rimraf ./dist/"
   },
   "targets": {
