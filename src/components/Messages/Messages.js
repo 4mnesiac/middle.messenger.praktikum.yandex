@@ -5,13 +5,6 @@ import getHeader from './parts/Header/Header';
 import statusIcon from '../../../static/message-status.svg';
 import getInput from './parts/ChatInput/ChatInput';
 
-const statuses = {
-    sended: 'sended',
-    delivered: 'delivered',
-    read: 'read',
-    error: 'error',
-    none: null
-}
 export default () => {
     let compiled = Handlebars.compile(template);
    

@@ -13,9 +13,10 @@ export default `
             <input class='input' type="password" id="password">
             <span class="input-error">{{validationError}}</span>
         </div>
-    </form>
-    <div class="controls">
+        <div class="controls">
         {{> button }}
         <a href={{href}} class='link_theme_secondary'>{{linkContent}}</a>
     </div>
+    </form>
+
 `;

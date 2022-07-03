@@ -38,9 +38,9 @@ export default `
             <input class="input" type="password" id="passwordConfirm" name="passwordConfirm">
             <span class="input-error">{{validationError}}</span>
         </div>
-    </form>
-    <div class="controls">
+        <div class="controls">
         {{> button }}
         <a href={{href}} class='link'>{{linkContent}}</a>
     </div>
+    </form>
 `;

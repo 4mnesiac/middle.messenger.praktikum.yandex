@@ -10,5 +10,5 @@ app.get("*", (req, res) =>
 );
 
 app.listen(PORT, function () {
-  console.log(`Listening: http://localhost:${PORT}`);
+  console.log(`Server started successfully on: http://localhost:${PORT}`);
 });

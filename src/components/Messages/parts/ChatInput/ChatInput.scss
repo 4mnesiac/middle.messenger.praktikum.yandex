@@ -3,7 +3,6 @@
 
 .chat-input {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
     padding: 10px 10px 14px 14px;
@@ -12,6 +11,10 @@
     background-color: #fff;
     border-top: 1px solid $lightGray;
 
+    &__form {
+        display: inline-flex;
+        flex: 1;
+    }
     &__input {
         height: 32px;
         padding-left: 15px;

@@ -1,5 +1,5 @@
 // language=hbs
 
 export default ` 
-    <button class='button'>{{buttonText}}</button>
+    <button class='button' type="submit">{{buttonText}}</button>
 `;

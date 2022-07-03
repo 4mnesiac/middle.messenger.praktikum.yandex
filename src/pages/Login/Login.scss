@@ -21,7 +21,10 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 154px;
+
+    & .controls {
+        padding: 80px;
+    }
 
     &__input-container {
         display: flex;
